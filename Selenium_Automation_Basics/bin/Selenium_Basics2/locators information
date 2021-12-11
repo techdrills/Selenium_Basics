@@ -1,0 +1,22 @@
+
+
+What are the locators we have?
+
+- We have 6 locators which can help to locate any webelement 
+   and we can perform operaton on that with help of Selenium
+   
+   
+   1. Name
+   2. Id
+   3. xpath
+   4. CSS selector
+   5. link text
+   6. class name
+   7. tag Name
+   --------------------------
+   
+   findElement method will be usefull to indentify web element locators using Selenium
+   
+   findElemement - this method can find only one element on web
+   sendKeys - this method will be usefull to enter a text data into the text field
+   
