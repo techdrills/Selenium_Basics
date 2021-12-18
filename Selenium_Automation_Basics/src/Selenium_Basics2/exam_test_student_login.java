@@ -1,7 +1,10 @@
 package Selenium_Basics2;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class exam_test_student_login {
@@ -38,7 +41,11 @@ public class exam_test_student_login {
 		else {
 			System.out.println("Login Test Case is Failed.......");
 		}
-		driver.close();
+		//driver.close();
+		
+		List<WebElement> rows = driver.findElements(By.xpath("//table/tbody/tr"));
+		int count = rows.size();
+		System.out.println("ROW COUNT : "+count);
 		
 		
 	}

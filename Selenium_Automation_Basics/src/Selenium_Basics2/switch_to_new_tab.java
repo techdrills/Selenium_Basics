@@ -41,7 +41,6 @@ public class switch_to_new_tab {
 				System.out.println(driver.getCurrentUrl());
 				driver.findElement(By.id("name")).sendKeys("feedback name");
 				driver.findElement(By.name("subject")).sendKeys("This is Subject by Selenium");
-			Thread.sleep(2000);
 				//driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("testuser@gmail.com");
 				driver.findElement(By.name("feedback")).sendKeys("This a feedback related auotmation testing using selenium and java");
 				driver.findElement(By.name("submit")).click();

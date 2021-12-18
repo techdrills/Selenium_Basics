@@ -1,6 +1,7 @@
 package Selenium_Basics2;
 
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -54,6 +55,7 @@ public class get_student_quiz_details {
 		System.out.println("Total Tests Available = "+ allTestCount);
 		System.out.println("Total Tests Attended = "+ testAttended);
 		System.out.println("Tests not Attended yet = "+ (allTestCount - testAttended));
+		
 		
 		// code to close browser
 		Thread.sleep(2000);
